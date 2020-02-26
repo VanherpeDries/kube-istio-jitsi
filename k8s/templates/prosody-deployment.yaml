@@ -2,7 +2,8 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   labels:
-    service: prosody
+     app: prosody
+     service: prosody
   name: prosody
 spec:
   replicas: 1
@@ -11,6 +12,7 @@ spec:
   template:
     metadata:
       labels:
+	app: prosody 
         service: prosody
     spec:
       containers:

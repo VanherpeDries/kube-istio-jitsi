@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     service: web
+    app: web
   name: web
 spec:
   replicas: 1
@@ -11,6 +12,7 @@ spec:
   template:
     metadata:
       labels:
+	app: web 
         service: web
     spec:
       containers:

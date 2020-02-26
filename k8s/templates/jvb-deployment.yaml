@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     service: jvb
+    app: jvb
   name: jvb
 spec:
   replicas: 1
@@ -11,7 +12,8 @@ spec:
   template:
     metadata:
       labels:
-        service: jvb
+        app: jvb
+	service: jvb
     spec:
       containers:
       - env:
