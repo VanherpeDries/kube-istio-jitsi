@@ -20,6 +20,7 @@ spec:
     labels:
       app: web
 ---
+apiVersion: networking.istio.io/v1alpha3
 kind: DestinationRule
 metadata:
   name: prosody
@@ -29,4 +30,3 @@ spec:
   - name: v1
     labels:
       app: prosody  
----
