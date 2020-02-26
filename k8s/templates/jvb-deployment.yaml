@@ -13,7 +13,7 @@ spec:
     metadata:
       labels:
         app: jvb
-	service: jvb
+        service: jvb
     spec:
       containers:
       - env:
