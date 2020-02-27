@@ -6,7 +6,6 @@ nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: NodePort 
   port: 80
   targetPort: 8080
 
