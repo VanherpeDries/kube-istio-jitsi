@@ -6,7 +6,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: ClusterIP
+  type: NodePort 
   port: 80
   targetPort: 8080
 
@@ -17,7 +17,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   paths: ["/"]
   hosts:
-    - kube.jitsi.net
+    - "vanherpe.dries.local" 
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:

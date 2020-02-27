@@ -19,4 +19,3 @@ spec:
     targetPort: 30001
   selector:
     service: jvb
-    app: jvb

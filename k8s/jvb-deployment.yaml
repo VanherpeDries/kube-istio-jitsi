@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   labels:
     service: jvb
-    app: jvb
   name: jvb
 spec:
   replicas: 1
