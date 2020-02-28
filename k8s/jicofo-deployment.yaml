@@ -12,6 +12,7 @@ spec:
   template:
     metadata:
       labels:
+        app: jicofo
         service: jicofo
     spec:
       containers:

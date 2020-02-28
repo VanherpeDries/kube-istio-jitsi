@@ -12,6 +12,7 @@ spec:
   template:
     metadata:
       labels:
+        app: web
         service: web
     spec:
       containers:
