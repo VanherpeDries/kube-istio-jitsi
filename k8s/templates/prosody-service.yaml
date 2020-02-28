@@ -17,4 +17,4 @@ spec:
     port: 5347
     targetPort: 5347
   selector:
-    service: prosody
+    app: prosody
