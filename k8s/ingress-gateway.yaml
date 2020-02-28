@@ -34,7 +34,6 @@ spec:
   - route: 
     - destination: 
         host: web
-        port: 80
 --- 
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
@@ -53,4 +52,3 @@ spec:
     route:
     - destination:
         host: web
-        port: 443
