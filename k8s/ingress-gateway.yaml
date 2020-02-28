@@ -10,7 +10,8 @@ spec:
       number: 80
       name: http
       protocol: HTTP2
-    hosts: "*"
+    hosts:
+    - "*"
   - port:
       number: 443
       name: https
