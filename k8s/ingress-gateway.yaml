@@ -15,7 +15,7 @@ spec:
       name: https
       protocol: HTTPS
     tls: 
-      mode: PASSTROUGH
+      mode: PASSTHROUGH
     hosts: 
     - "*" 
 --- 
