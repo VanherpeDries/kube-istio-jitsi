@@ -19,20 +19,21 @@ spec:
       - env:
         - name: JICOFO_AUTH_USER
           value: focus
+        - name: JICOFO_AUTH_PASSWORD
+          value: passw0rd      
         - name: XMPP_DOMAIN
           value: meet.jitsi
         - name: XMPP_AUTH_DOMAIN
           value: auth.meet.jitsi
         - name: XMPP_BOSH_URL_BASE
-          value: http://prosody:5280
+          value: http://prosody:5280 
         - name: XMPP_MUC_DOMAIN
           value: muc.meet.jitsi
         - name: TZ
           value: Europe/Paris
-        image: jitsi/web
+        image: vanherpedries/jitsi-web
         name: web
         ports:
         - containerPort: 80
         - containerPort: 443
         resources: {}
-status: {}
